@@ -1,0 +1,5 @@
+<resources>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCk-mjwZA67T6ZDcqtHRYkFbyHi3piNjqg</string>
+</resources>
+
+    <!-- "google_maps_key" guarda la API_KEY que se necesita para establecer conexión.-->

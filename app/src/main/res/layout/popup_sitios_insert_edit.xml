@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Este layout se utiliza como un popup emergente para insertar o editar los objetos "Sitio" -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sitios_popup_title_insert_edit"
+        android:id="@+id/popupTitleID"
+        android:textSize="20dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/popupTitleID"
+        android:id="@+id/popupSitioName"
+        android:hint="@string/pista_sitio">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/popupSitioLocalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/popupSitioName"
+        android:layout_marginTop="14dp"
+        android:hint="@string/pista_city"
+        android:inputType="textVisiblePassword">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/popupSitioDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/popupSitioLocalidad"
+        android:layout_marginTop="14dp"
+        android:hint="@string/pista_description"
+        android:inputType="textVisiblePassword">
+
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/popupSitioDescription"
+        android:id="@+id/popupSaveSitioButton"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp">
+
+
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="openweathermap_key" translatable="false">5ac1962bec5c164a667eeed33f0c0268</string>
+    <string name="openweathermap_icon" translatable="false">http://openweathermap.org/img/wn/</string>
+</resources>
+
+<!-- "openweathermap_key" guarda la API_KEY que se necesita para establecer conexión.
+     "openweathermap_icon" es la ruta web que se necesita para acceder a los iconos del tiempo
+habiendo rescatado en el .json la ID del icono y posteriormente consultándolas con picasso,
+agregándole a la ruta la ID del icono. -->

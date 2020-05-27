@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Este diseño es utilizado para crear cada ítem mostrado por el recyclerView -->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    app:cardCornerRadius="6dp">
+
+    <LinearLayout
+        android:id="@+id/container_sitio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@drawable/border_accent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/sitio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.6"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewSitio"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="8.75"
+                android:gravity="center_horizontal"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textViewSitioMunicipio"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="3.25"
+                android:gravity="center_horizontal"
+                android:paddingLeft="8dp"
+                android:paddingBottom="6dp"
+                android:text="@string/localidad"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.005"
+            android:background="@color/colorBrownLight" />
+
+        <LinearLayout
+            android:id="@+id/optionSitioIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewEditSitioIcon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                app:srcCompat="@drawable/ic_edit" />
+
+            <ImageView
+                android:id="@+id/imageViewDeleteSitioIcon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_delete" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

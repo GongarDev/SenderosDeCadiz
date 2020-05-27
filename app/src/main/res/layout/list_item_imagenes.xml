@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Este diseño es utilizado para crear cada ítem mostrado por el recyclerView, este concretamente
+visualiza una serie de imagenes consultadas a modo de galería-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    app:cardCornerRadius="0dp">
+
+    <ImageView
+        android:id="@+id/imageViewImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+</androidx.cardview.widget.CardView>

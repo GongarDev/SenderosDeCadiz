@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="my_images" path="Android/data/com.example.senderosdecadiz/files/Pictures" />
+    <external-path name="external_files" path="." />
+</paths>
+
+<!-- Este .xml sirve para poder acceder a distintas estructuras externas e internas del móvil
+por ejemplo, para acceder al almacenamiento interno del móvil en lectura de imágenes. O también para
+escribir en el mismo.-->

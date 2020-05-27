@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Senderos De Cadiz</string>
+    <string name="distancia">Distancia:</string>
+    <string name="no_internet_connection" translatable="false">No hay conexión a internet.</string>
+    <string name="pista_description">Descripción</string>
+    <string name="pista_sitio">Nombre del sitio</string>
+    <string name="title_mis_sitios">Mis Sitios</string>
+    <string name="title_senderos">Senderos</string>
+    <string name="title_favoritos">Favoritos</string>
+    <string name="sitios_popup_title_insert_edit">Añadir un sitio</string>
+    <string name="sitios_popup_title_delete">Borrar sitio</string>
+    <string name="save">Guardar</string>
+    <string name="localidad">Localidad:</string>
+    <string name="descripcion">Descripción</string>
+    <string name="n_senderos">Nº de senderos:</string>
+    <string name="tiempo_actual_en_la_zona">Tiempo actual</string>
+    <string name="temperatura">Temperatura:</string>
+    <string name="viento">Viento:</string>
+    <string name="humedad">Humedad:</string>
+    <string name="ocaso">Ocaso:</string>
+    <string name="duracion">Duración:</string>
+    <string name="dificultad">Dificultad:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="senializado">Señalizado:</string>
+    <string name="permiso">Permiso:</string>
+    <string name="cota_max">Cota máx:</string>
+    <string name="cota_min">Cota min:</string>
+    <string name="titulo">Título</string>
+    <string name="more_info">MÁS INFO...</string>
+    <string name="de">de</string>
+    <string name="AlbumPhotos">Galería de fotos</string>
+    <string name="search_by_city">Buscar por localidad...</string>
+    <string name="pista_city">Localidad</string>
+    <string name="site_added">Sitio añadido</string>
+    <string name="site_add_error">Error al añadir el sitio</string>
+    <string name="site_delete_error">Error al borrar el sitio</string>
+    <string name="site_deleted">Sitio eliminado</string>
+    <string name="site_update_error">Error al actualizar el sitio</string>
+    <string name="site_updated">Sitio actualizado</string>
+    <string name="image_add_error">Error al añadir imagen</string>
+    <string name="image_added">Imagen añadida</string>
+    <string name="image_delete_error">Error al eliminar la imagen</string>
+    <string name="image_deleted">Imagen eliminada</string>
+    <string name="sendero_add_error">Error al añadir el sendero</string>
+    <string name="sendero_added">Sendero añadido</string>
+    <string name="sendero_delete_error">Error al eliminar el sendero</string>
+    <string name="sendero_deleted">Sendero eliminado</string>
+</resources>

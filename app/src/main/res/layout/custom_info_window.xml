@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Este particular layout se utiliza cuando hacemos intent a la app GoogleMap, la cual marcará
+en el sañalizador de las coordenadas información detallada -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_info"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@android:drawable/ic_dialog_info"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/icon_info">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/window_info_title"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/titulo"
+                android:layout_marginLeft="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/window_info_desc"
+                android:textSize="16sp"
+                android:text="@string/descripcion"
+                android:layout_marginLeft="16dp"
+
+                android:layout_below="@id/window_info_title"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/more_info"
+                android:background="@android:color/transparent"
+                android:layout_below="@id/window_info_desc"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

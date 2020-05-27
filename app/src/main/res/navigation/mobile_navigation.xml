@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_senderos">
+
+    <fragment
+        android:id="@+id/navigation_senderos"
+        android:name="com.example.senderosdecadiz.fragments.SenderosFragment"
+        android:label="@string/title_senderos"
+        tools:layout="@layout/fragment_senderos" />
+
+    <fragment
+        android:id="@+id/navigation_mis_sitios"
+        android:name="com.example.senderosdecadiz.fragments.MisSitiosFragment"
+        android:label="@string/title_mis_sitios"
+        tools:layout="@layout/fragment_mis_sitios" />
+
+    <fragment
+        android:id="@+id/navigation_favoritos"
+        android:name="com.example.senderosdecadiz.fragments.FavoritosFragment"
+        android:label="@string/title_favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+</navigation>
+
+<!-- Este .xml contiene el navigatión que gestionará y mostrará los fragments asociados a
+cada ítem del menu del navigation-->
