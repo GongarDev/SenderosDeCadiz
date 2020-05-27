@@ -30,7 +30,7 @@ Conexión Https con JSON a dos API mediante Volley.
 Intents a otras aplicaciones.
 
 ## Más información detallada.
-* **Info** - *resources* - [Página](https://drive.google.com/open?id=1AP-o2DVAX8uuW3azgxyisvFLjsnaZBbpIqJMFfD5b-s)
+* [Info](https://drive.google.com/open?id=1AP-o2DVAX8uuW3azgxyisvFLjsnaZBbpIqJMFfD5b-s)
 
 ## Autores ✒️
 * **Jesús González** - *Proyecto*
